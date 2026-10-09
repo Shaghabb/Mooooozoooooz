@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موووووووزووووووز | تبدیل موز به موس!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(145deg, #fff9c4, #ffe082, #ffd54f);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            border-radius: 60px 20px 60px 20px;
+            padding: 40px 30px;
+            box-shadow: 0 30px 40px rgba(0, 0, 0, 0.2), inset 0 0 0 2px #fbc02d;
+            border: 4px solid #f9a825;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #3e2723;
+            text-shadow: 4px 4px 0 #ffb300;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+            word-break: break-word;
+        }
+
+        .mooo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #e65100;
+            background: #fff3e0;
+            display: inline-block;
+            padding: 10px 30px;
+            border-radius: 50px;
+            margin: 15px 0;
+            border: 3px dashed #bf360c;
+            transform: rotate(-1deg);
+        }
+
+        .banana-emoji {
+            font-size: 5rem;
+            line-height: 1.2;
+            margin: 5px 0;
+            filter: drop-shadow(0 10px 5px rgba(0,0,0,0.2));
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #2e2e2e;
+            margin: 20px 0;
+            line-height: 1.8;
+            background: #fff8e1;
+            padding: 18px;
+            border-radius: 30px;
+            border-right: 12px solid #ffb300;
+            text-align: right;
+        }
+
+        .steps {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin: 35px 0;
+        }
+
+        .step {
+            background: #f9a825;
+            color: #2e1b0e;
+            padding: 20px 15px;
+            border-radius: 30px;
+            flex: 1 1 180px;
+            font-weight: bold;
+            box-shadow: 0 10px 0 #b26a00;
+            transition: 0.1s ease;
+            border: 2px solid #7f4f00;
+        }
+
+        .step:hover {
+            transform: translateY(5px);
+            box-shadow: 0 5px 0 #b26a00;
+        }
+
+        .step span {
+            display: block;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .big-mouse {
+            font-size: 4rem;
+            margin: 20px 0 10px;
+            letter-spacing: 15px;
+        }
+
+        .button {
+            background: #4caf50;
+            border: none;
+            color: white;
+            font-size: 1.6rem;
+            font-weight: bold;
+            padding: 18px 45px;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 12px 0 #2e7d32;
+            transition: 0.1s;
+            margin: 25px 0 10px;
+            border: 3px solid #1b5e20;
+            letter-spacing: 3px;
+        }
+
+        .button:active {
+            transform: translateY(8px);
+            box-shadow: 0 4px 0 #2e7d32;
+        }
+
+        .button:hover {
+            background: #66bb6a;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #5d4037;
+            background: #ffe0b2;
+            padding: 8px 20px;
+            border-radius: 50px;
+        }
+
+        .warning {
+            background: #d32f2f;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 40px;
+            font-weight: bold;
+            margin-top: 20px;
+            display: inline-block;
+            border: 3px solid #b71c1c;
+        }
+
+        .moo-text {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: #3e2723;
+            text-shadow: 3px 3px 0 #ffcc80;
+            word-break: break-word;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🍌 موووووووزووووووز 🖱️</h1>
+    <div class="mooo">موز = موس؟ موووووووز!</div>
+
+    <div class="banana-emoji">🍌 ➡️ 🖱️</div>
+
+    <p>
+        آیا از موزهای بی‌استفاده خسته شده‌اید؟ آیا می‌خواهید موس کامپیوتر خود را به یک <strong>موووووووز</strong> تبدیل کنید؟ 
+        <br>اینجا دقیقاً همان جایی است که موزهایتان به <strong>موووووووزووووووز</strong> تبدیل می‌شوند! 
+        <br>موووووووز یعنی موس ساخته‌شده از موز! 🍌🖱️
+    </p>
+
+    <div class="steps">
+        <div class="step"><span>۱</span> یک موز رسیده بردارید</div>
+        <div class="step"><span>۲</span> آن را به شکل موس تا کنید</div>
+        <div class="step"><span>۳</span> با چسب برق محکم کنید</div>
+        <div class="step"><span>۴</span> فریاد بزنید: موووووووز!</div>
+    </div>
+
+    <div class="big-mouse">🖱️🍌🖱️</div>
+
+    <button class="button" onclick="moo()">موووووووز کن!</button>
+    <div id="mooOutput" class="moo-text"></div>
+
+    <div class="warning">
+        ⚠️ هشدار: این موس واقعاً کار نمی‌کند! فقط موووووووز است!
+    </div>
+
+    <footer>
+        © ۲۰۲۵ - سایت رسمی موووووووزووووووز | تمام حقوق موزها محفوظ است 🍌
+    </footer>
+</div>
+
+<script>
+    function moo() {
+        const output = document.getElementById('mooOutput');
+        const moos = [
+            "موووووووز! 🍌🖱️",
+            "موووووووزووووووز! 🎉",
+            "موووووووز یعنی موس موزی!",
+            "موز شما با موفقیت موووووووز شد! ✅",
+            "مووووووووووووز! (ترجمه: عالی بود)",
+            "موووووووز؟ موووووووز! 🐄🍌"
+        ];
+        const randomMoo = moos[Math.floor(Math.random() * moos.length)];
+        output.textContent = randomMoo;
+        
+        // افکت کوچک
+        output.style.transform = 'scale(1.2)';
+        output.style.transition = '0.2s';
+        setTimeout(() => {
+            output.style.transform = 'scale(1)';
+        }, 200);
+    }
+</script>
+
+</body>
+</html>
